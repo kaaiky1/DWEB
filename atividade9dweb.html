@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Funções com Arquivos Externos</title>
+    <link rel="stylesheet" href="at9.css">
+    <script src="at9.js"></script>
+</head>
+<body>
+
+    <h1>Painel de Testes</h1>
+
+    <div class="card">
+        <h3>Função 1: Maior de Três Números</h3>
+        <input type="number" id="f1_a" placeholder="Número 1" value="12">
+        <input type="number" id="f1_b" placeholder="Número 2" value="45">
+        <input type="number" id="f1_c" placeholder="Número 3" value="23">
+        <button onclick="executarFuncao1()">Função 1</button>
+        <div class="resultado" id="res1">Resultado: -</div>
+    </div>
+
+    <div class="card">
+        <h3>Função 2: Ordem Crescente</h3>
+        <input type="number" id="f2_a" placeholder="Número 1" value="35">
+        <input type="number" id="f2_b" placeholder="Número 2" value="10">
+        <input type="number" id="f2_c" placeholder="Número 3" value="22">
+        <button onclick="executarFuncao2()">Função 2</button>
+        <div class="resultado" id="res2">Resultado: -</div>
+    </div>
+
+    <div class="card">
+        <h3>Função 3: Verificar Palíndromo</h3>
+        <input type="text" id="f3_str" placeholder="Digite uma palavra ou frase" value="A torre da derrota">
+        <button onclick="executarFuncao3()">Função 3</button>
+        <div class="resultado" id="res3">Resultado: -</div>
+    </div>
+
+    <div class="card">
+        <h3>Função 4: Verificar Subconjunto</h3>
+        <input type="text" id="f4_principal" placeholder="Palavra principal" value="programação">
+        <input type="text" id="f4_busca" placeholder="Subconjunto" value="programa">
+        <button onclick="executarFuncao4()">Função 4</button>
+        <div class="resultado" id="res4">Resultado: -</div>
+    </div>
+
+   
+    <div class="card">
+        <h3>Função 5: Dia da Semana</h3>
+        <input type="date" id="f5_data" value="2026-06-06">
+        <button onclick="executarFuncao5()">Função 5</button>
+        <div class="resultado" id="res5">Resultado: -</div>
+    </div>
+</body>
+</html>
